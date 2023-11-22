@@ -1,0 +1,40 @@
+.caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin: 3px 200px 0px 200px;
+    padding: 10px 0px 10px 0px;
+    background-image: url(imgs/fundo_rainbow.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#pou {
+    height: 60vh;
+    width: 100vh;
+}
+#texto {
+    font: normal 18pt Arial;
+    font-weight: 700;
+}
+#seta{
+    width: 150px;
+}
+#butao {   
+    background-color: #3887D5;
+    border: none;
+    border-radius: 7px;
+    padding: 20px 20px 20px 20px;
+}
+#butao a {
+    text-decoration: none;
+    font: italic 18pt Arial;
+    font-weight: 700;
+    background-color: #3887D5;
+    color: #ffffff;
+}
+#butao:hover {
+    text-transform: lowercase;
+    background-color: #2877c6ed;
+    color: #e4dedef1;
+}

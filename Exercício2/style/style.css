@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    background-color: beige;
+    font: normal 18pt Arial;
+    margin: 0px 560px 0px 0px;
+    border-radius: 5px;
+    padding: 2px 0px 2px 2px;
+    box-shadow: 1px 5px 12px 2px gray;
+}
+.butao {
+    background-color: #59C00B;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 23px;
+    padding: 10px 10px 10px 10px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.butao:hover {
+    background-color: #ffffff;
+    color: #59C00B;
+    border: #59C00B;
+    border-style: solid;
+    box-shadow: 0px 5px 12px 2px gray;
+}
+.tenis {
+    border-radius: 5px;
+    margin: 5px 5px 0px 5px;
+    box-shadow: 0px 3px 4px 1px gray;
+}
+.texto {
+    margin-left: 30px;
+    display: flex;
+}
+

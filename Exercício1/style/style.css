@@ -1,0 +1,56 @@
+body {
+    font: normal 18pt Arial;
+    background: url(img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#p1 {
+    font: normal 15pt Arial;
+    padding-top: 80px;
+    font-weight: 700;
+}
+#GitHub{
+    color: white;
+    background-color: black;
+    padding: 12px;
+    border-radius: 7px;
+    text-decoration: none;
+
+}
+#GitHub:hover{
+    background-color: rgb(37, 35, 35);
+}
+#Insta {
+    color: white;
+    background-color: #3f729b ;
+    padding: 12px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+#Insta:hover {
+    background-color: #628cae ;           
+}
+#LinkedIn {
+    color: white;
+    background: rgb(11,102,195);
+    padding: 12px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+#LinkedIn:hover {
+    background: rgb(35, 123, 210);          
+}
+.img {
+    padding-bottom: 0px;
+    border-radius: 5px;
+}
+.h1 {
+    padding-left: 423px; 
+}
+#p2 {
+    padding-left: 430px;
+    font-weight: 600;
+    text-align: justify;
+    padding-right: 20px;
+    font-size: xx-large;
+}
