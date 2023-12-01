@@ -19,3 +19,13 @@ nav {
 nav ul {
     display: flex;
 }
+
+@media (max-width: 720px) {
+    ul {
+       flex-direction: column; 
+       height: 400px; 
+    }
+    li {
+        margin-bottom: 50px;
+    }
+}
