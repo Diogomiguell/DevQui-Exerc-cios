@@ -22,7 +22,7 @@ body {
 }
 #Insta {
     color: white;
-    background-color: #3f729b ;
+    background: linear-gradient(90deg, #febe00 0%, #FC0780 35%, #7D0BFE 100%);
     padding: 12px;
     border-radius: 7px;
     text-decoration: none;
@@ -53,4 +53,13 @@ body {
     text-align: justify;
     padding-right: 20px;
     font-size: xx-large;
+}
+
+@media (max-width: 1366px) {
+    body {
+        background-size: 100%;
+    }
+    #p2 {
+        font-size: 25px;
+    }
 }

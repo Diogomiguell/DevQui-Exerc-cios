@@ -1,40 +1,31 @@
-.caixa {
+button {
+    background-color: #ffffff;
+    border-style: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#noticia {
+    background-image: url(imgs/p-x-a.jpg);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 460px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border-radius: 5px;
-    margin: 3px 200px 0px 200px;
-    padding: 10px 0px 10px 0px;
-    background-image: url(imgs/fundo_rainbow.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    justify-content: end;
 }
-#pou {
-    height: 60vh;
-    width: 100vh;
-}
+
 #texto {
-    font: normal 18pt Arial;
-    font-weight: 700;
-}
-#seta{
-    width: 150px;
-}
-#butao {   
-    background-color: #3887D5;
-    border: none;
-    border-radius: 7px;
-    padding: 20px 20px 20px 20px;
-}
-#butao a {
-    text-decoration: none;
-    font: italic 18pt Arial;
-    font-weight: 700;
-    background-color: #3887D5;
+    font: normal 16pt Arial;
     color: #ffffff;
-}
-#butao:hover {
-    text-transform: lowercase;
-    background-color: #2877c6ed;
-    color: #e4dedef1;
+    font-weight: 700;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #000;
+    border-radius: 20px;
 }

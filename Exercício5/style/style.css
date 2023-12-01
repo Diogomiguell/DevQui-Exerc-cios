@@ -69,7 +69,8 @@ footer .boxs h2 {
     }
     footer .boxs .texto {
         flex-direction: column;
-        text-align: left;
-        width: 100%;
+        text-align: justify;
+        justify-content: center;
+        width: 400px;
     }
 }
